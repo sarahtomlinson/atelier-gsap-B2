@@ -1,3 +1,27 @@
 #demo{
     color: red;
 }
+
+#section1{
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(98, 162, 227);
+}
+
+#section2{
+    height: 60vh;
+    width: 100%;
+    background-color: rgba(143, 222, 104, 0.616);
+}
+
+#section3{
+    height: 75vh;
+    width: 100%;
+    background-color: rgba(220, 128, 145, 0.616);
+}
+
+#section4{
+    height: 90vh;
+    width: 100%;
+    background-color: rgba(221, 219, 144, 0.616);
+}
