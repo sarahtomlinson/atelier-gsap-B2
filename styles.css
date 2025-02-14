@@ -1,27 +1,163 @@
-#demo{
-    color: red;
+*{
+    margin: 0%;
+    padding: 0px;
 }
 
 #section1{
-    height: 60vh;
+    min-height: 60vh;
     width: 100%;
-    background-color: rgb(98, 162, 227);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.texte{
+    font-size: 50px;
+}
+
+
+/* Section 2 ------------ */
 #section2{
-    height: 60vh;
+    min-height: 40vh;
     width: 100%;
-    background-color: rgba(143, 222, 104, 0.616);
+    background-color: rgba(170, 197, 202, 0.616);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
+
+.titre{
+    font-size: 30px;
+}
+
+.onedirection{
+    height: 100%;
+    width: 590px;
+}
+
+.biographie{
+   display: flex;
+   flex-direction: column;
+   padding: 50px;
+   padding-right: 8%;
+   margin-top: 3%;
+   gap: 35px;
+
+   
+  
+}
+
+.img1Texte{
+    font-size: 20px;
+}
+
+/* Section 3 ------------ */
 #section3{
-    height: 75vh;
+    min-height: 75vh;
     width: 100%;
     background-color: rgba(220, 128, 145, 0.616);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
+.jeu{
+    display: flex;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.artistBox{
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.widthImage{
+    width: 100%;
+ 
+}
+
+.depositZone{
+    background-color: rgb(75, 9, 9);
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+}
+
+
+.cardGame{
+    display: flex;
+    gap: 30px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 80%;
+    background-color: rgb(255, 250, 249);
+    border-radius: 30px;
+}
+
+
+
+
+
+
+/* Section 4 ------------ */
+
+
+
+
+
+.titre2{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.window3{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    display: inline;
+}
+
+
+
 #section4{
-    height: 90vh;
+    min-height: 60vh;
     width: 100%;
     background-color: rgba(221, 219, 144, 0.616);
+
 }
+
+.window4{
+    display: flex;
+}
+
+.mitam{
+    height: 491px;
+    width: 590px;
+}
+
+.mitamTexte{
+    display: flex;
+   flex-direction: column;
+   padding: 50px;
+   padding-left: 8%;
+   margin-top: 7%;
+   gap: 60px;
+   font-size: 20px;
+}
+

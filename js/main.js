@@ -1,15 +1,22 @@
 //gsap modules
 gsap.registerPlugin(ScrollTrigger,Observer,ScrollToPlugin,Draggable,MotionPathPlugin);
 
-//gsap demo animation
-gsap.to("#demo",{
+//gsap  animation------------------------------------
+gsap.to("#introTitle",{
     rotation : 360,
     duration : 2,
+});
 
-}
-)
+//gsap media match
+/*
+let mm = gsap.matchMedia();
+mm.add({
+    isMobile: '(max-width: 799px)',
+    isDesktop: '(min-width: 800px)',
+})
+   */
 
-Draggable.createl("#demo")
+Draggable.create("#introTitle")
 
 //gsap animation window rotation
 
@@ -26,7 +33,7 @@ gsap.to("#window1", {
 
     },
     rotation: 360,
-    duration: 2,
+    duration: 2, 
 })
 
 
@@ -62,12 +69,29 @@ gsap.to("#window3", {
 
 //GSAp animation - window 4 timeline
 let timelineWindow = gsap.timeline();
-timelineWindow4.to('#window4', {
-    x: 100,})
-    .to('#window4', {
-     y: 100,})
-     .to('#window4', {
-     x: -100,})
-     .to('#window4', {
-    y: -100,})
+timelineWindow.to('#window4', {x: 100,})
+    .to('#window4', {y: 100,})
+    .to('#window4', { x: -100,})
+    .to('#window4', {y: -100,});
     
+
+//draggable 
+Draggable.create(".name",{
+    type:"x,y",
+    bounds: "#section3",
+
+    onDrag: function(){
+        //document.querySelector('.harry').style.width = "250px";
+    },
+   
+
+    onDragend: function(){
+        //document.querySelector('.harry').style.width = "200px";
+    },
+
+})
+
+   
+
+ 
+
