@@ -7,14 +7,6 @@ gsap.to("#introTitle",{
     duration : 3,
 });
 
-//GSAP media match
-/*
-let mm = gsap.matchMedia();
-mm.add({
-    isMobile: '(max-width: 799px)',
-    isDesktop: '(min-width: 800px)',
-})
-   */
 
 //GSAP Draggable title-----------------------------------
 
