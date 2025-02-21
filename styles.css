@@ -1,6 +1,7 @@
 *{
-    margin: 0%;
+    margin: 0px;
     padding: 0px;
+
     
 }
 
@@ -16,32 +17,9 @@
     --c-bg-blue: rgb(212 241 255);
 }
 
-/* Responsive / MEDIA QUERIES -----------------------------------------------------*/
-
-@media(max-width: 800px){ 
-    #section2 {
-        flex-direction: column !important;
-        .onedirection{
-            height: 100%;
-            width: 500px;
-            margin-left: 80px;
-            margin-bottom: 50px;
-        }
-
-    }
-    .window4 {
-        display: flex ;
-        flex-direction: column !important;
-        .mitam {
-            height: 100%;
-            width: 500px;
-            padding: 80px;
-        }
-    }
-
-    .textecover{
-        gap: 10vh !important;
-    }
+body{
+    overflow-x: hidden;
+    width: 100vw;
 }
 
 
@@ -60,6 +38,7 @@
     font-size: 60px;
     font-family: "OneDirection";
     
+
 }
 
 
@@ -255,11 +234,10 @@
     justify-content: center;
     align-items: row;
     gap: 30vh;
-    padding-right: 50px;
-    padding-left: 10px;
     margin-top: 3px;
     font-family: "OneDirection";
     font-size: 30px;
+    margin-right: 5%;
 
 
 }
@@ -292,11 +270,169 @@
 
 
 
+/* Responsive / MEDIA QUERIES -----------------------------------------------------*/
 
-/*
-.tracks{
-    display: flex;
-    justify-content: center;
-    align-items: column;
+@media(max-width: 800px){ 
+  
+    #section2 {
+        flex-direction: column !important;
+    }
+    .onedirection{
+            height: 100%;
+            width: 500px;
+            margin-left: 80px;
+            margin-bottom: 50px;
+        }
+
+    
+    .window4 {
+        display: flex ;
+        flex-direction: column !important;
+    }.mitam {
+            height: 100%;
+            width: 500px;
+            padding: 80px;
+        }
+    
+
+    .textecover{
+        gap: 10vh !important;
+        flex-direction: column;
+    }
+
+    .texte{
+        font-size: 30px !important;
+        font-family: "OneDirection";
+    }
+    .img1Texte {
+        font-size: 17px;
+        
+    }
+
+    .onedirection {
+     width: 300px !important;
+     margin-left: 10px !important;
+     margin-bottom: 50px;
+     }
+
+    .jeu{
+        flex-direction: column;
+    }
+        
+    .artistBox{
+        width: 100%;
+    
+    }
+    .cardGame {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .mitamTexte{
+        margin-left: 30px;
+    }
+    
+    .mitam{
+        width: 300px !important;
+        padding: 10px !important;
+    }
+    .titresec5 {
+        font-size: 30px !important;
+    }
+
+   /* Responsive tablette/ MEDIA QUERIES -----------------------------------------------------*/
+
+@media(max-width: 800px){ 
+  
+    #section2 {
+        flex-direction: column !important;
+    }
+    .onedirection{
+            height: 100%;
+            width: 500px;
+            margin-left: 80px;
+            margin-bottom: 50px;
+        }
+
+    }
+    .window4 {
+        display: flex ;
+        flex-direction: column !important;
+    }.mitam {
+            height: 100%;
+            width: 500px;
+            padding: 80px;
+        }
+    
+
+    .textecover{
+        gap: 10vh !important;
+    }
+
+    .texte{
+        font-size: 30px !important;
+        font-family: "OneDirection";
+    }
+    .img1Texte {
+        font-size: 17px;
+        
+    }
+
+    .onedirection {
+     width: 300px !important;
+     margin-left: 10px !important;
+     margin-bottom: 50px;
+     }
+
+    .jeu{
+        flex-direction: column;
+        
+    .artistBox{
+        width: 100%;
+    }
+    }
+    .cardGame {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .mitamTexte{
+        margin-left: 30px;
+    }
+    
+    .mitam{
+        width: 300px !important;
+        padding: 10px !important;
+    }
+    .titresec5 {
+        font-size: 30px !important;
+    }
+
+    .cover, .goodCover {
+        width: 45vh !important; 
+        
+    }
+
+    .albums{
+        flex-direction: column;
+    }
+
+    
+
+
+    .albums{
+        flex-direction: column;
+    }
+    .textecover{
+        align-items: center;
+    }
+
+    #depositSec5 {
+        width: 50vh;
+        height: 50vh;
+        border-radius: 80px;
+    }
+       
 }
-    */
+
+    
