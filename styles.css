@@ -1,7 +1,23 @@
 *{
     margin: 0%;
     padding: 0px;
+    
 }
+
+
+@font-face {
+    font-family: "OneDirection";
+    src: ("/fonts/OneDirection.ttf") format("truetype"),
+   
+}
+
+
+:root{
+    --c-bg-blue: rgb(212 241 255);
+}
+
+
+/* Section 1 ------------------------------------------------------------------------------------------------------------ */
 
 #section1{
     min-height: 60vh;
@@ -13,11 +29,13 @@
 }
 
 .texte{
-    font-size: 50px;
+    font-size: 60px;
+    font-family: "OneDirection";
+    
 }
 
 
-/* Section 2 ------------ */
+/* Section 2 ------------------------------------------------------------------------------------------------------------- */
 #section2{
     min-height: 40vh;
     width: 100%;
@@ -29,7 +47,10 @@
 
 
 .titre{
-    font-size: 30px;
+    font-size: 50px;
+    font-family: "Shadows Into Light", serif;
+
+    
 }
 
 .onedirection{
@@ -44,8 +65,6 @@
    padding-right: 8%;
    margin-top: 3%;
    gap: 35px;
-
-   
   
 }
 
@@ -53,7 +72,7 @@
     font-size: 20px;
 }
 
-/* Section 3 ------------ */
+/* Section 3 ------------------------------------------------------------------------------------------ */
 #section3{
     min-height: 75vh;
     width: 100%;
@@ -111,20 +130,14 @@
 
 
 
-
-
-/* Section 4 ------------ */
-
-
-
-
-
 .titre2{
-    font-size: 30px;
+    font-size: 50px;
     display: flex;
     justify-content: center;
     margin-top: 3%;
+    font-family: "Shadows Into Light", serif;
 }
+
 
 .window3{
     display: flex;
@@ -134,11 +147,14 @@
 }
 
 
+/* Section 4 -------------------------------------------------------------------------------------------------------------- */
+
 
 #section4{
     min-height: 60vh;
     width: 100%;
     background-color: rgba(221, 219, 144, 0.616);
+    overflow: hidden;
 
 }
 
@@ -147,8 +163,8 @@
 }
 
 .mitam{
-    height: 491px;
-    width: 590px;
+    height: 100%;
+    width: 620px;
 }
 
 .mitamTexte{
@@ -161,3 +177,97 @@
    font-size: 20px;
 }
 
+
+#sec4To5{
+    min-height: 200px;
+    background-color: rgba(187, 230, 251, 0.616);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.micro{
+    width: 190px;
+
+}
+
+
+/* Section 5 ------------------------------------------------------------------------------------------------------------ */
+
+#section5{
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--c-bg-blue);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.titresec5{
+    font-size: 50px;
+    font-family: "Shadows Into Light", serif;
+    
+}
+
+
+.cover, .goodCover{
+    width: 20vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.textecover{
+    display: flex;
+    justify-content: center;
+    align-items: row;
+    gap: 30vh;
+    padding-right: 50px;
+    padding-left: 10px;
+    margin-top: 3px;
+    font-family: "OneDirection";
+    font-size: 30px;
+
+
+}
+    
+
+.albums{
+    display: flex;
+    justify-content: center;
+    gap: 10vh;
+}
+
+#depositSec5{
+    width: 22vw;
+    height: 22vw;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.response{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 47, 169);
+}
+
+
+
+
+/*
+.tracks{
+    display: flex;
+    justify-content: center;
+    align-items: column;
+}
+    */
