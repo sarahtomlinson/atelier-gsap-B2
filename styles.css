@@ -177,13 +177,14 @@
    font-size: 20px;
 }
 
-
+/* Section interlude ------------------------------------------------------------------------------------------------------------ */
 #sec4To5{
     min-height: 200px;
     background-color: rgba(187, 230, 251, 0.616);
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .micro{

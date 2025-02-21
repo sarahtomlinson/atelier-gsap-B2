@@ -1,7 +1,7 @@
 //GSAP modules
 gsap.registerPlugin(ScrollTrigger,Observer,ScrollToPlugin,Draggable,MotionPathPlugin);
 
-//GSAP  animation 1------------------------------------
+//GSAP  animation title------------------------------------
 gsap.to("#introTitle",{
     rotation : 360,
     duration : 3,
@@ -16,9 +16,11 @@ mm.add({
 })
    */
 
+//GSAP Draggable title-----------------------------------
+
 Draggable.create("#introTitle")
 
-//GSAP animation window 2 apparition-----------------------------------------------
+//GSAP animation 2 apparition-----------------------------------------------
 
 gsap.from("onedirection", {
     scrollTrigger:{
